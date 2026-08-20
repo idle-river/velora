@@ -11,3 +11,4 @@ axum = { workspace = true }
 
 # local deps
 database = { path = "../../shared/database" }
+app = { path = "../../shared/app" }
