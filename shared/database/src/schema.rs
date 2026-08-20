@@ -5,7 +5,7 @@ diesel::table! {
         id -> Uuid,
         name -> Text,
         email -> Text,
-        password -> Text,
+        password_hash -> Bytea,
         created_at -> Timestamptz,
         updated_at -> Timestamptz,
     }

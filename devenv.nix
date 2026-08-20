@@ -4,7 +4,10 @@
 }:
 
 {
-  packages = with pkgs; [ cargo-watch ];
+  packages = with pkgs; [
+    cargo-watch
+    diesel-cli
+  ];
 
   languages.rust = {
     enable = true;
