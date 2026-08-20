@@ -24,3 +24,11 @@ target
 # Added by cargo
 
 /target
+
+result
+
+.devenv
+
+.env
+
+.pre-commit-config.yaml

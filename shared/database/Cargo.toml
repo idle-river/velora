@@ -4,8 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-diesel = { version = "2.2.0", features = ["postgres"] }
+diesel = { version = "2.2.0", features = ["postgres", "chrono", "uuid"] }
 chrono = { version = "0.4.45", features = ["now"] }
+uuid = { version = "1.18.1", features = ["v4", "serde"] }
 serde_json = { workspace = true }
 tokio = { workspace = true }
 serde = { workspace = true }
